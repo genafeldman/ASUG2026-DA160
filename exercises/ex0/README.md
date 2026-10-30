@@ -198,7 +198,7 @@ The Hub should looks something like this:
 
 
 
-5. Navigate to [Exercise 1 — Load contacts with Console Data Loader](../ex1/README.md).
+5. Navigate to [Exercise 1 — Load Organizations with Console Data Loader](../ex1/README.md).
    Under your Training_User_XX, you would need **`SAP_Org.csv`** and you also need **`Load_Mappings_Ops.xlsx`** (Under ex1 folder)as the mapping reference.
 
 ---
