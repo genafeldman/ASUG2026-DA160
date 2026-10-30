@@ -1,6 +1,6 @@
 # Exercise 1 — Load Organizations with Console Data Loader (20 min)
 
-SAP TechEd 2026, Hands-On Workshop: DA160
+SAP ASUG 2026, Hands-On Workshop: DA160
 
 **Hands-on**
 
@@ -36,14 +36,14 @@ You are now on the entity data-load page. The wizard is **Upload** → **Map** �
 
 On the **Upload** section, fill in the following details, then select **CONTINUE**:
 
-1. In **Job definition Name**, enter a name you can find later. Use your desk number, for example `DeskNN-SAP-Contact`.
+1. In **Job definition Name**, enter a name you can find later. Use your desk number, for example `DeskNN`.
 2. In **Entity type**, select **Organization**.
 3. Leave the source as **My Computer** (the default).
 4. For file type, select **CSV**.
 5. Select the **First row is a header** checkbox.
 6. For the delimiter, select **Comma (,)**.
 7. Select **BROWSE FILE** and choose **`SAP_Org.csv`** from the workshop data folder.
-8. Confirm the file preview looks like contact rows (names, source identifiers), not a mapping spreadsheet.
+8. Confirm the file preview looks like organization rows (names, source identifiers), not a mapping spreadsheet.
 9. Select **CONTINUE**.
 
 > [!WARNING]
@@ -89,6 +89,5 @@ On the **Review** page you should see file details, a mapping summary, and job i
 You should have:
 
 - A completed Data Loader job for `SAP_Org.csv`
-- Contact profiles you can find in Hub Search (Exercise 2)
 
 Continue to [Exercise 2 — Search in Hub](../ex2/README.md).
