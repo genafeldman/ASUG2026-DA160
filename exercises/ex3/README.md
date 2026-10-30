@@ -1,6 +1,6 @@
 # Exercise 3 — Match, merge, and Not a Match (20 min)
 
-SAP TechEd 2026, Hands-On Workshop: DA160
+SAP ASUG 2026, Hands-On Workshop: DA160
 
 **Hands-on**
 
@@ -31,7 +31,6 @@ Human **Not a Match** outranks the engine. If you mark two profiles Not a Match,
 
 Then pick **one** path:
 
-**Training-dataset path:** If the instructor confirmed the training dataset is on this tenant, search for **Pacific Rim Packaging**.
 
 **Load-only path:** If the tenant only has data from Exercise 1, pick any organization that shows potential matches from your load (or from seed data already on the tenant).
 
@@ -54,26 +53,12 @@ On a comparison column, hover over the profile name and use the actions at the t
 > [!WARNING]
 > **Merge** and **Not a Match** at the top of the table apply to **all** profiles on the page. For this workshop, act on **one pair at a time**.
 
-### Training-dataset path (Pacific Rim Packaging)
-
-The bootcamp challenge: **Pacific Rim Packaging** starts related to three other profiles (four profiles in total):
-
-- 1 named Pacific Rim Packaging Co
-- 1 named PACIFIC RIM PACKAGING
-- 1 named Pacific Rim Packaging Incorporated
-- 1 named Pacific Rim Packaging LLC
-
-**Goal:** end with **three** profiles — one for each legal name — and those three marked **Not a Match** with each other.
-
-1. **Merge** two Pacific Rim Packaging profiles into one.
-3. Leave one as its own profile.
-4. Mark one pair **Not a Match**.
 
 If you merge the wrong pair, **unmerge** on the surviving profile and retry. Unmerge is expected; it also writes Not a Match for that split.
 
 ### Load-only path (no Fluor data)
 
-1. Merge **one** pair you are confident is the same organization (or the same contact, if you are working from Exercise 1 contacts).
+1. Merge **one** pair you are confident is the same organization.
 2. Mark **one** pair **Not a Match**.
 3. Stop. Do not empty the whole queue.
 
@@ -89,7 +74,7 @@ That merged profile is the trusted record downstream apps, analytics, and AI age
 
 You should be able to explain, in one sentence each:
 
-- What a potential match is (engine unsure; steward decides)
+- What a potential match is (steward decides)
 - What merge does (one profile, many sources)
 - Why Not a Match matters (permanent steward override)
 
