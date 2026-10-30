@@ -1,12 +1,12 @@
 # Exercise 2 — Search in Hub (15 min)
 
-SAP TechEd 2026, Hands-On Workshop: DA160
+SAP ASUG 2026, Hands-On Workshop: DA160
 
 **Hands-on**
 
-In this exercise you find the organizations (and contacts) in your tenant the way a steward does: quick filter first, then a precise advanced query. This workshop keeps **one** search challenge.
+In this exercise you find the organizations in your tenant the way a steward does: quick filter first, then a precise advanced query. This workshop keeps **one** search challenge.
 
-If Exercise 1 is still running, wait until the Data Loader job is completed before you search for the contacts you just loaded.
+If Exercise 1 is still running, wait until the Data Loader job is completed before you search for the organizations you just loaded.
 
 ## How Hub Search is laid out
 
@@ -14,7 +14,7 @@ The Search page has three areas:
 
 - **Left** — **Advanced Search** (query builder) and **Quick Filters** (entity type and attribute facets)
 - **Top** — current criteria, saved / recent searches, share, and actions such as load and export
-- **Center** — results as a table or a list, with the total profile count
+- **Center** — **results** as a table or a list, with the total profile count
 
 **Global search** looks across attribute values when you only have a keyword. **Quick Filters** limit by entity type. **Advanced Search** combines conditions (`equals`, `contains`, missing values, and more). Every attribute is indexed, so you can filter on what you see.
 
@@ -50,7 +50,6 @@ If you do not see **Redwood Data Labs**, check that the entity type is still **O
 2. Note the **sources / crosswalks** on the profile (where the data came from). That lineage is what merge keeps when you unify duplicates in Exercise 3.
 3. Return to **Search**.
 
-**Optional:** If you have two minutes, switch the entity type quick filter to **Contact** (or **Individual**) and use global search with a last name from `SAP_Contact.csv` to prove your load from Exercise 1 is searchable.
 
 ## Summary
 
