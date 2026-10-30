@@ -1,8 +1,8 @@
 # Getting Started — The SAP Reltio platform (10 min)
 
-SAP TechEd 2026, Hands-On Workshop: **DA160 — Build Real-Time, Unified Data Products for Agentic AI with SAP Reltio**
+SAP ASUG 2026, Hands-On Workshop: **DA160 — Build Real-Time, Unified Data Products for Agentic AI with SAP Reltio**
 
-**Read-only** (instructor talk or pre-read)
+**Read-only** (pre-read)
 
 This overview introduces how the pieces fit together so load, search, and match make sense.
 
@@ -10,8 +10,7 @@ This overview introduces how the pieces fit together so load, search, and match 
 
 After this overview you can:
 
-- Recognize the cost of scattered, duplicated data on the business and on customers
-- Explain how **Reltio Multidomain MDM** creates one trusted profile for every customer, supplier, and product
+- Explain how **Reltio Multidomain MDM** creates one trusted profile for an Organization
 - Describe how **Reltio Data Cloud** unifies, governs, secures, and delivers that data at enterprise scale
 - Describe how **Reltio AgentFlow** and **Reltio MCP Server** bring governed AI agents into operations
 
@@ -186,20 +185,20 @@ You use labels throughout the exercises to tell reading from doing:
 
 1. Use **Google Chrome** (current version).
 2. Open the **Hub URL** on your **desk card** (one tenant per laptop; two people share the screen). https://test-usg.reltio.com/nui/Dfmuh97ggDbBEIo/dashboard
-3. Sign in with the credentials on your **desk card**.
+3. Sign in with the credentials on your **desk card**.(could be found in "participants" folder) 
 
    - User ID: \
    - Password: \
 
-4. Confirm you can see Hub **Search**. If you cannot, raise a hand before Exercise 1.
-5. Confirm the workshop data folder is available (the instructor announces the path). You need **`SAP_Contact.csv`** for Exercise 1. You also need **`Load_Mappings_Ops.xlsx`** as the mapping reference.
+4. Confirm you can see the **Hub**, If you cannot, raise a hand before Exercise 1.
+The Hub should looks something like this:
 
-> [!NOTE]
-> Replace the Hub URL and credentials with the values on your desk card. Do not share passwords with other desks.
+<img width="600" height="300" alt="Screenshot 2026-10-30 at 1 20 45 PM" src="https://github.com/user-attachments/assets/8d594171-9209-4df8-b3a0-1955a691109c" />
 
-> [!TIP]
-> If Hub asks you to pick a tenant, choose the tenant ID printed on the desk card.
 
-When you can see Search, go to [Exercise 1 — Load contacts with Console Data Loader](../ex1/README.md).
+
+
+5. Navigate to [Exercise 1 — Load contacts with Console Data Loader](../ex1/README.md).
+   Under your Training_User_XX, you would need **`SAP_Org.csv`** and you also need **`Load_Mappings_Ops.xlsx`** (Under ex1 folder)as the mapping reference.
 
 ---
