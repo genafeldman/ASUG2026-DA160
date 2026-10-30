@@ -1,4 +1,4 @@
-# Exercise 1 — Load Organizations with Console Data Loader (20 min)
+# Exercise 1 — Load Organizations with Console Data Loader (30 min)
 
 SAP ASUG 2026, Hands-On Workshop: DA160
 
