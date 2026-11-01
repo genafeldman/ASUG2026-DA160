@@ -56,7 +56,7 @@ On a comparison column, hover over the profile name and use the actions at the t
 
 If you merge the wrong pair, **unmerge** on the surviving profile and retry. Unmerge is expected; it also writes Not a Match for that split.
 
-### Load-only path (no Fluor data)
+### From your data load
 
 1. Merge **one** pair you are confident is the same organization.
 2. Mark **one** pair **Not a Match**.
